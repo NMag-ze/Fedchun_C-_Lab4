@@ -1,0 +1,22 @@
+C:\Users\N\Desktop\Технологии программирования\Lab 3-4\bin\Debug\netcoreapp2.1\Lab 3-4.deps.json
+C:\Users\N\Desktop\Технологии программирования\Lab 3-4\bin\Debug\netcoreapp2.1\Lab 3-4.runtimeconfig.json
+C:\Users\N\Desktop\Технологии программирования\Lab 3-4\bin\Debug\netcoreapp2.1\Lab 3-4.runtimeconfig.dev.json
+C:\Users\N\Desktop\Технологии программирования\Lab 3-4\bin\Debug\netcoreapp2.1\Lab 3-4.dll
+C:\Users\N\Desktop\Технологии программирования\Lab 3-4\bin\Debug\netcoreapp2.1\Lab 3-4.pdb
+C:\Users\N\Desktop\Технологии программирования\Lab 3-4\obj\Debug\netcoreapp2.1\Lab 3-4.csproj.CoreCompileInputs.cache
+C:\Users\N\Desktop\Технологии программирования\Lab 3-4\obj\Debug\netcoreapp2.1\Lab 3-4.AssemblyInfoInputs.cache
+C:\Users\N\Desktop\Технологии программирования\Lab 3-4\obj\Debug\netcoreapp2.1\Lab 3-4.AssemblyInfo.cs
+C:\Users\N\Desktop\Технологии программирования\Lab 3-4\obj\Debug\netcoreapp2.1\Lab 3-4.dll
+C:\Users\N\Desktop\Технологии программирования\Lab 3-4\obj\Debug\netcoreapp2.1\Lab 3-4.pdb
+C:\Users\N\Desktop\Технологии программирования\Lab 3-4\obj\Debug\netcoreapp2.1\Lab 3-4.csprojAssemblyReference.cache
+C:\Users\N\Desktop\LabWork4\Lab 3-4\bin\Debug\netcoreapp2.1\Lab 3-4.deps.json
+C:\Users\N\Desktop\LabWork4\Lab 3-4\bin\Debug\netcoreapp2.1\Lab 3-4.runtimeconfig.json
+C:\Users\N\Desktop\LabWork4\Lab 3-4\bin\Debug\netcoreapp2.1\Lab 3-4.runtimeconfig.dev.json
+C:\Users\N\Desktop\LabWork4\Lab 3-4\bin\Debug\netcoreapp2.1\Lab 3-4.dll
+C:\Users\N\Desktop\LabWork4\Lab 3-4\bin\Debug\netcoreapp2.1\Lab 3-4.pdb
+C:\Users\N\Desktop\LabWork4\Lab 3-4\obj\Debug\netcoreapp2.1\Lab 3-4.csprojAssemblyReference.cache
+C:\Users\N\Desktop\LabWork4\Lab 3-4\obj\Debug\netcoreapp2.1\Lab 3-4.csproj.CoreCompileInputs.cache
+C:\Users\N\Desktop\LabWork4\Lab 3-4\obj\Debug\netcoreapp2.1\Lab 3-4.AssemblyInfoInputs.cache
+C:\Users\N\Desktop\LabWork4\Lab 3-4\obj\Debug\netcoreapp2.1\Lab 3-4.AssemblyInfo.cs
+C:\Users\N\Desktop\LabWork4\Lab 3-4\obj\Debug\netcoreapp2.1\Lab 3-4.dll
+C:\Users\N\Desktop\LabWork4\Lab 3-4\obj\Debug\netcoreapp2.1\Lab 3-4.pdb
