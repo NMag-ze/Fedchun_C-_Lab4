@@ -84,62 +84,45 @@ namespace Lab_3_1
         public static void PrintAnyArr(string name, Array univ)
         {
             Console.WriteLine(name);
-            int n = univ.Rank;
-            if (n == 1)// одномерный массив
+            int search = univ.Rank;
+            switch (search)
             {
-                var en = univ.GetEnumerator();
-
-                en.MoveNext();
-                if (en.Current.GetType() == Type.GetType("System.Int32"))
-                    for (int i = 0; i < univ.GetLength(0); i++)
-                        Console.Write(univ.GetValue(i) + " ");
-                else
-                    foreach (int[] mas in univ)
+                case 1:
+                    for (int i = 0; i < univ.Length; i++)
                     {
-                        for (int i = 0; i < mas.GetLength(0); i++)
-                            Console.Write(mas.GetValue(i) + " ");
+                        Console.WriteLine("elem[{0}] = {1}", i, univ.GetValue(i));
+                    }
+                    break;
+                case 2:
+                    int first = univ.GetLength(0);
+                    int second = univ.GetLength(1);
+                    for (int i = 0; i < first; i++)
+                    {
+                        for (int j = 0; j < second; j++)
+                        {
+                            Console.Write("{0} ", univ.GetValue(i, j));
+                        }
                         Console.WriteLine();
                     }
-            }
-            if (n == 2) //матрица
-            {
-                for (int i = 0; i < univ.GetLength(0); i++)
-                {
-                    for (int j = 0; j < univ.GetLength(1); j++)
-                    {
-                        Console.Write(univ.GetValue(i, j) + " ");
-                    }
-                    Console.WriteLine();
-                }
+                    break;
+                default:
+                    Console.WriteLine("Error");
+                    break;
             }
 
         }
 
         public static void PrintAnyArr2(string name, Array univ)
         {
-            Console.WriteLine(name);
-            if (univ.Rank == 1)// одномерный массив
-            {
-                var en = univ.GetEnumerator();
-                en.MoveNext();
-                if (en.Current.GetType() == Type.GetType("System.Int32"))
-                    foreach (int elem in univ) Console.Write(elem + " ");
-                else
-                    foreach (int[] mas in univ)
-                    {
-                        foreach (int elem2 in mas) Console.Write(elem2 + " ");
-                        Console.WriteLine();
-                    }
-            }
-            if (univ.Rank == 2) //матрица
-            {
-                int i = 1;
-                foreach (int x in univ)
-                    if (i++ % univ.GetLength(1) == 0)
-                        Console.WriteLine(x);
-                    else
-                        Console.Write(x + " ");
-            }
+             Console.WriteLine(name);
+            int count = 0;
+                foreach (int element in univ)
+                {
+                if (count == univ.GetLength(0)) { Console.WriteLine(); count = 0; } 
+                    Console.Write(element+" ");
+                    count++;
+                }
+            Console.WriteLine();
         }
 
         public static void PrintAnyArr3(Object A, params int[] coef)
